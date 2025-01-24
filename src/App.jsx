@@ -16,9 +16,16 @@ export default function ConitLanding() {
       {/* Content Container */}
       <div className="relative z-10 container mx-auto px-4 py-8">
         {/* Header/Logo */}
-        <header className="mb-20">
+        <header className="mb-20 max-w-4xl mx-auto">
           <div className="flex items-center">
-            <div className="w-80">
+            <div
+              className="
+            w-40
+            md:w-60
+            xl:w-80
+           
+            "
+            >
               <img className="object-contain" src="/logo-conit.png"></img>
             </div>
           </div>
@@ -29,7 +36,10 @@ export default function ConitLanding() {
           {/* Decorative Elements */}
           <div className="grid grid-cols-3 gap-4 mb-8">
             {[...Array(3)].map((_, i) => (
-              <div key={i} className="w-16 h-16 transform rotate-45 border-2 border-yellow-400/30" />
+              <div
+                key={i}
+                className="w-16 h-16 transform rotate-45 border-2 border-yellow-400/30"
+              />
             ))}
           </div>
 
@@ -45,7 +55,19 @@ export default function ConitLanding() {
             <div className="w-32 h-1 bg-yellow-400" />
 
             {/* CONIT Tag */}
-            <div className="inline-block bg-yellow-400 px-4 py-2 text-[#1A2634] font-bold mt-4">CONIT</div>
+            <div
+              className="inline-block bg-yellow-400 
+            px-12 text-xl
+            xl:px-16 
+            
+            
+            py-4 text-[#1A2634] font-bold
+            xl:px-24
+            
+            "
+            >
+              CONIT
+            </div>
           </div>
 
           {/* Decorative Triangles */}
@@ -66,11 +88,15 @@ export default function ConitLanding() {
       {/* CSS Animations */}
       <style jsx>{`
         @keyframes pulse {
-          0%, 100% { opacity: 0.2; }
-          50% { opacity: 0.4; }
+          0%,
+          100% {
+            opacity: 0.2;
+          }
+          50% {
+            opacity: 0.4;
+          }
         }
       `}</style>
     </div>
-  )
+  );
 }
-
