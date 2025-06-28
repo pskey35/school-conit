@@ -1,7 +1,6 @@
 # 🚀 React + Vite - Starter para Juniors de Juniors
 
 ¡Bienvenido al mundo del desarrollo moderno con React y Vite!  
-Este proyecto fue **creado por un Junior**, **para los Juniors**, **ante los Juniors**, y **con la bendición de los futuros Juniors**.  
 Ideal si estás empezando, si rompiste algo y no sabes cómo, o si simplemente quieres ver el mundo arder en consola 🔥.
 
 
